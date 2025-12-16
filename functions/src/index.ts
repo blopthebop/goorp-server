@@ -184,17 +184,7 @@ async function syncPlayerProfileHandler(
             extractionsSuccessful: 0,
             extractionsFailed: 0,
             goldEarned: 0,
-          },
-          equipment: {
-            head: { item: null, condition: 0 },
-            chest: { item: null, condition: 0 },
-            legs: { item: null, condition: 0 },
-            feet: { item: null, condition: 0 },
-            main_hand: { item: null, condition: 0 },
-            off_hand: { item: null, condition: 0 },
-            belt: { item: null, condition: 0 },
-            back: { item: null, condition: 0 },
-          },
+          }
         });
 
         // Create subcollections
